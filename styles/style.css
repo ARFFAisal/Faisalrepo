@@ -163,7 +163,7 @@ main{
 .donate-button{
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 14px;
 }
 
 .dnt-btn{
