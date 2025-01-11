@@ -173,6 +173,7 @@ main{
     font-size: 30px;
     font-weight: bold;
     border-radius: 16px;
+    margin-left: 80px;
 }
 .btn-bg{
     background-color: rgba(198, 228, 214, 1);
