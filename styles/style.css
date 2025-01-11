@@ -1,0 +1,240 @@
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+body{
+    background-color: rgba(241, 241, 243, 1);
+}
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-button{
+    padding: auto;
+    color: rgb(62, 194, 62);
+    border-color: rgb(60, 189, 60);
+    border-radius: 5px;
+    height: 20px;
+    
+}
+nav button:hover{
+    background-color: aqua;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(198, 228, 214, 1);
+    gap: 16px;
+    padding: 100px;
+    border-radius: 24px;
+}
+.banner-text{
+    max-width: 622px;
+}
+.banner-tittle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+}
+.banner-description{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.banner-button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 34px;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 80px;
+    
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-1{
+    max-width: 410px;
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.cart-2{
+    max-width: 410px;
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+    margin: 24px;
+}
+.cart-3{
+    max-width: 410px;
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1);
+    border-radius: 16px ;
+}
+
+.cart-1-btn{
+    background-color: rgba(84, 144, 245, 1);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
+.cart-2-btn{
+    background-color: rgba(9, 161, 92, 1);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
+.cart-3-btn{
+    background-color: rgba(255, 194, 57, 1);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
+.younus-kaku{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    flex: none;
+}
+    
+
+.quote{
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 48px 24px ;
+}
+
+.somokalin-barta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 24px;
+    background: rgba(255, 255, 255);
+    margin-bottom: 32px;
+
+}
+.barta-img{
+    border-radius: 24px;
+}
+
+.barta{
+    padding: 32px;
+}
+.read-button{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    max-width: 139px;
+    height: 48px;
+    color: white;
+    border: none;
+}
+
+
+.donate-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.dnt-btn{
+    height:128px ;
+    max-width: 240px ;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 16px;
+}
+.btn-bg{
+    background-color: rgba(198, 228, 214, 1);
+}
+.inpu-cla{
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.input-btn{
+    background-color: rgba(9, 161, 92, 1);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 11px 20px;
+}
+.donation{
+    text-align: center;
+    justify-items: center
+}
+.input-btn{
+    justify-items: center;
+    margin: 20px 0px;
+}
+.h11{
+    justify-self: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.pp{
+    justify-self: center;
+}
+
+.newsletter{
+    justify-items: center;
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 80px;
+    border-radius: 16px;
+}
+.mail-box{
+    width: 600px;
+    height: 50px;
+    text-align: center;
+}
+.mail-button{
+    position: relative;
+    width: 150px;
+    height: 56px;
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    margin-right: 10px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+}
+.inputt{
+    display: flex;
+}
+
+.footer{
+    background-color: white;
+    justify-items: center;
+}
